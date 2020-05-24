@@ -61,9 +61,10 @@ def load_model(args):
 
     return Gen, Disc
 
-
 def _train(args):
-    """
+"""
+   
+    
     Training script. 6 steps:
 
     1. Check if there are more than 1 hosts, if yes, start a distributed training.
